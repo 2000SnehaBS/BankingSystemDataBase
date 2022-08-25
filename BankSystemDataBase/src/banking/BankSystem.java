@@ -27,6 +27,7 @@ public class BankSystem{
 		}
 		catch(SQLException e) {
 			e.printStackTrace();
+			main(args);
 		}
 	}
 }
